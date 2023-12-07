@@ -69,8 +69,6 @@ Fit-Market is an online marketplace that offers a wide range of products, includ
 #### User Home Page
 ![User Home Page](https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/83f9f550-0294-4997-9d50-789acfd0f7d6)
 
-#### User Profile Page
-![User Profile Page](https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/2c1aca8c-5c18-4795-a2e3-d7cd9f62ecf7)
 
 #### Product Details Page
 ![Product Details Page](https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/2df87930-5367-43d2-b42d-9ad4c7e8338f)
