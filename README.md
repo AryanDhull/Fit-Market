@@ -1,92 +1,70 @@
-# Fit-Market: Your Ultimate Shopping Destination
+# Getting Started with Create React App
 
-<div align="center">
-  <h1>Fit-Market</h1>
-</div>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## What is Fit-Market?
+## Available Scripts
 
-Fit-Market is not just an online marketplace; it's a destination where you can discover, explore, and indulge in the latest trends and essential assets. We are committed to revolutionizing your shopping experience by combining convenience and quality in one platform.
+In the project directory, you can run:
 
-## What does it do?
+### `npm start`
 
-Fit-Market is an online marketplace that offers a wide range of products, including clothing and valuable assets. We provide a user-friendly platform for customers to browse and purchase high-quality items from renowned brands. With secure payment options and prompt delivery services, Fit-Market ensures a convenient and reliable shopping experience. Our commitment to quality and customer satisfaction sets us apart as your ultimate online shopping destination.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Getting Started
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-1. **Fork and Clone:**
-   - Fork the repository.
-   - Clone the repository to your local machine.
+### `npm test`
 
-2. **Navigate and Install:**
-   - Open the folder containing the cloned repository.
-   - Download dependencies:
-     ```sh
-     cd Fit-Market/
-     npm install
-     cd Fit-Market/frontend
-     npm install
-     ```
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-3. **Start the Project:**
-   - To launch the project on localhost:
-     ```sh
-     cd Fit-Market/
-     nodemon
-     ```
+### `npm run build`
 
-4. **Env Variables:**
-   - Create a `config.env` file in `backend/config` directory.
-   - Add essential variables for the app:
-     ```
-     PORT=
-     JWT_SECRET=
-     JWT_EXPIRE=
-     COOKIE_EXPIRE=
-     DB_URL=
-     SMPT_SERVICE=
-     SMPT_MAIL=
-     SMPT_PASSWORD=
-     SMPT_HOST=
-     SMPT_PORT=
-     FRONTEND_URL=
-     CLOUDINARY_NAME=
-     CLOUDINARY_API_KEY=
-     CLOUDINARY_SECRET_KEY=
-     STRIPE_PUBLIC_KEY=
-     STRIPE_SECRET_KEY=
-     ```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Screenshots
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-#### Landing Page
-![Landing Page](https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/77dbc69d-b424-4033-9514-f6dd5d87a6fb)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-#### Signup/LogIn Page
-![Signup/LogIn Page 1](https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/93878feb-bd7f-484f-b78f-b6fcb4e84dc6)
-![Signup/LogIn Page 2](https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/00e4616d-3305-4d17-b190-738465205e80)
+### `npm run eject`
 
-#### User Home Page
-![User Home Page](https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/83f9f550-0294-4997-9d50-789acfd0f7d6)
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-#### Product Details Page
-![Product Details Page](https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/2df87930-5367-43d2-b42d-9ad4c7e8338f)
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-#### About Us Page
-![About Us Page](https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/60eaccb9-3b2c-4b97-ab2a-ca9f2b2f7511)
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-#### Admin Dashboard
-![Admin Dashboard 1](https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/d654b300-f38c-4e5f-8d6a-d035ca14eec2)
-![Admin Dashboard 2](https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/48c42667-30e0-4246-a5ae-68b774a697fc)
+## Learn More
 
-#### Admin All Orders Page
-![Admin All Orders Page](https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/ddbce756-08c6-4390-8021-3d6a96f968d9)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-#### Admin Products Page
-![Admin Products Page](https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/b670e34d-de3f-4178-b4eb-5286ade64aec)
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-#### Admin All Users Page
-![Admin All Users Page](https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/8117c000-3e36-43d4-be34-486a6f96fd1f)
+### Code Splitting
 
-Experience the future of online shopping with Fit-Market!
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
