@@ -1,70 +1,121 @@
-# Getting Started with Create React App
+<div align="center">
+  <h1>Fit-Market</h1>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What is Fit-Market?
 
-## Available Scripts
+Fit-Market is not just an online marketplace; it's a destination where you can discover, explore, and indulge in the latest trends and essential assets. We are committed to revolutionizing your shopping experience by combining convenience and quality in one platform.
 
-In the project directory, you can run:
+## What does it do?
 
-### `npm start`
+<ul>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<li>
+Fit-Market is an online marketplace that offers a wide range of products, including clothing and valuable assets. We provide a user-friendly platform for customers to browse and purchase high-quality items from renowned brands. With secure payment options and prompt delivery services, Fit-Market ensures a convenient and reliable shopping experience. Our commitment to quality and customer satisfaction sets us apart as your ultimate online shopping destination.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+</ul>
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Fork the repository
+2. Clone the repository
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Open the folder containing the cloned repository
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4.Download dependencies
+Go inside ./Fit-Market/
 
-### `npm run eject`
+```sh
+Run npm install 
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Go inside Fit-Market/frontend
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+Run npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To start the project on localhost Go inside ./Fit-Market/
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```sh
+Run nodemon
+```
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. Env Variables
+   Make Sure to Create a config.env file in backend/config directory and add appropriate variables in order to useCancel changes the app.
+   Essential Variables 
+PORT=
+JWT_SECRET=
+JWT_EXPIRE=
+COOKIE_EXPIRE=
+DB_URL=
+SMPT_SERVICE=
+SMPT_MAIL=
+SMPT_PASSWORD=
+SMPT_HOST=
+SMPT_PORT=
+FRONTEND_URL=
+CLOUDINARY_NAME=
+CLOUDINARY_API_KEY=
+CLOUDINARY_SECRET_KEY=
+STRIPE_PUBLIC_KEY=
+STRIPE_SECRET_KEY=
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Screenshots
 
-### Analyzing the Bundle Size
+#### Landing Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<img width="930" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/77dbc69d-b424-4033-9514-f6dd5d87a6fb">
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+#### Signup/LogIn Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<img width="924" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/93878feb-bd7f-484f-b78f-b6fcb4e84dc6">
+<img width="926" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/00e4616d-3305-4d17-b190-738465205e80">
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+#### User Home Page
+<img width="924" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/83f9f550-0294-4997-9d50-789acfd0f7d6">
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+#### User Profile Page
+
+<img width="926" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/2c1aca8c-5c18-4795-a2e3-d7cd9f62ecf7">
+
+
+#### Product Details Page
+
+<img width="929" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/2df87930-5367-43d2-b42d-9ad4c7e8338f">
+
+
+
+#### About Us Page
+
+<img width="935" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/60eaccb9-3b2c-4b97-ab2a-ca9f2b2f7511">
+
+
+#### Admin Dashboard
+
+<img width="934" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/d654b300-f38c-4e5f-8d6a-d035ca14eec2">
+<img width="534" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/48c42667-30e0-4246-a5ae-68b774a697fc">
+
+
+#### Admin All Orders Page
+<img width="551" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/ddbce756-08c6-4390-8021-3d6a96f968d9">
+
+
+#### Admin Products Page
+
+<img width="549" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/b670e34d-de3f-4178-b4eb-5286ade64aec">
+
+
+#### Admin All users page
+<img width="551" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/8117c000-3e36-43d4-be34-486a6f96fd1f">
+
